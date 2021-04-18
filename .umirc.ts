@@ -18,6 +18,9 @@ export default defineConfig({
       pathRewrite: { '^/api': '' },
     },
   },
+  devServer: {
+    port: 8001,
+  },
   qiankun: {
     slave: {},
   },
